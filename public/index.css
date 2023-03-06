@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Karla", sans-serif;
+  margin: 0;
+}
+
+nav{
+  display: flex;
+  align-items: center;
+  height: 4.5rem;
+  background: linear-gradient(90deg, #672280 1.18%, #A626D3 100%);
+  color: white;
+  padding: 20px;
+}
+
+.nav-img{
+  height: 200%;
+  margin-right: 0.5rem;
+}
+.title{
+  font-size: 1.75rem;
+  margin-right: auto;
+
+}
+.sub-title{
+  font-size: 1.25rem;
+  font-weight: 500;
+}
