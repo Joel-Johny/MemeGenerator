@@ -29,3 +29,28 @@ nav{
   font-size: 1.25rem;
   font-weight: 500;
 }
+.form-container{
+  display:flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.input{
+  width: 14.4rem;
+  height: 2.1875rem;
+  margin: 0.75rem;
+  margin-top: 5.75rem;
+  border-radius:0.75rem ;
+  padding: 0.65rem;
+}
+
+#submit{
+  margin: 0.75rem;
+  width:100%;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  border-radius: 5px;
+  position: absolute;
+  width: 30.35rem;
+  height: 2.5rem;
+  display: block;
+}
