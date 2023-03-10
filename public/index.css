@@ -8,6 +8,7 @@ body {
 }
 
 nav{
+  width: 100%;
   display: flex;
   align-items: center;
   height: 4.5rem;
@@ -29,28 +30,50 @@ nav{
   font-size: 1.25rem;
   font-weight: 500;
 }
-.form-container{
-  display:flex;
-  align-items: center;
-  justify-content: space-around;
+
+
+.input {
+  font-family: "Karla", sans-serif;
+  border-radius: 15px;
+  border: 1px solid #D5D4D8;
+  text-indent: 5px;
+  height: 125%;
+  
 }
 
-.input{
-  width: 14.4rem;
-  height: 2.1875rem;
-  margin: 0.75rem;
-  margin-top: 5.75rem;
-  border-radius:0.75rem ;
-  padding: 0.65rem;
-}
 
-#submit{
-  margin: 0.75rem;
-  width:100%;
+#submit {
+  margin-top: 2%;
+  height: 150%;
+  grid-column: 1 / -1;
+  font-family: "Karla", sans-serif;
+  border-radius: 1%;
   background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
-  border-radius: 5px;
-  position: absolute;
-  width: 30.35rem;
-  height: 2.5rem;
-  display: block;
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  
+}
+
+.container{
+  display: grid;
+  grid-template: 2rem 2rem / 1fr 1fr;
+  gap: 1.1rem;
+  padding:3%;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+.meme-image{
+  width: 30vw;
+  height: 45vh;
+}
+.meme-container{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 5%;
+
 }
