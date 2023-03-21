@@ -74,8 +74,33 @@ nav{
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-top: 5%;
+  margin-top: 3%;
 
+}
+.meme-name{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 1%;
+  color:#101aab
+
+}
+
+#example {
+  width:7rem;
+  height: 2rem;
+  text-align: center;
+  margin: auto;
+  display: block;
+  font-family: "Karla", sans-serif;
+  border-radius: 20px;
+  background: linear-gradient(90.41deg, #711F8D 1.14%, #A818DA 100%);
+  color: white;
+  border: none;
+  cursor: pointer;
+  font-size: large;
+  
 }
 
 .meme--text {
